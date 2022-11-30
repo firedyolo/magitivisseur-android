@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "name": "magitivisseur",
+    "app-name": "magitivisseur",
+    "package-name": "magitivisseur",
+    "project-type": "webview",
+    "icon": "./views/public/logo.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+    ],
+    "description": "Le magitivisseur pour Android !",
+    "main": "main.js",
+    "scripts": {
+        "start:dev": "node .",
+        "build": "androidjs build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "androidjs": "^2.0.2",
+        "fs": "^0.0.1-security",
+        "ytdl-core": "^4.11.2",
+        "ytpl": "^2.3.0"
+    },
+    "theme": {
+        "fullScreen": true
+    }
+}
