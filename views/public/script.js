@@ -17,13 +17,5 @@ async function checkLink() {
 }
 
 async function redirect(url, playlist) {
-	//const res = await fetch(`${serverURL}/download?url=${url}&fetch=fetch`);
 	front.send('here', app.getPath("music"), url, playlist);
-	/*if (res.status === 200) {
-		window.location.href = `${serverURL}/download?url=${url}&fetch=dwnld&islistplay=${playlist}`;
-	} else if (res.status === 400) {
-		alert("Le lien n'est pas bon Kévin !");
-	} else {
-		alert(`Vous avez possiblement un soucis de connexion. Erreur : ${res.status}`);
-	}*/
 }

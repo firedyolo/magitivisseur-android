@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.1.0",
     "name": "magitivisseur",
     "app-name": "magitivisseur",
     "package-name": "magitivisseur",
@@ -25,6 +25,7 @@
         "ytdl-core": "^4.11.2",
         "ytpl": "^2.3.0"
     },
+    "project-name": "magitivisseur",
     "theme": {
         "fullScreen": true
     }

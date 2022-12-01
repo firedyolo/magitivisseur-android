@@ -10,7 +10,7 @@ Pour utiliser le programme sur votre téléphone **Android**, téléchargez l'`a
 
 **`Les Frameworks et modules utilisés autre que NodeJs :`**
 **››** Fs
-**››** Androidjs (Android)
+**››** Androidjs
 **››** ytdl-core
 **››** ytpl
 

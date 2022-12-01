@@ -18,15 +18,15 @@ back.on("here", async function(folder, url, playlist) {
 	async function download(url) {
         let title = await getTitle(url);
         let writer = fs.createWriteStream(`./${folder}/${title}.mp3`);
-        
-		ytdl(url, {
-			format: 'mp3',
-			filter: 'audioonly',
-		}).pipe(writer);
+
+        ytdl(url, {
+            format: 'mp3',
+            filter: 'audioonly',
+        }).pipe(writer);
 
         writer.on("finish", () => {
             back.send("downloadInfo", `Le téléchargement de ${title} est fini !`);
-        })
+        });
     }
 
     async function downloadPlaylist(url, title, playlistTitle, numberOfSongs, downloadedSongs) {
