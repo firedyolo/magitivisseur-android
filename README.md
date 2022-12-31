@@ -1,7 +1,7 @@
 # Magitivisseur pour Android
-Un convertisseur Youtube -> MP3 **fiable**, **gratuit**, **sans pub** et ***open source*** ! :)
+Un convertisseur Youtube -> MP3 & MP4 **fiable**, **gratuit**, **sans pub** et ***open source*** ! :)
 
-Pour utiliser le programme sur votre téléphone **Android**, téléchargez l'`apk` [ici](https://mega.nz/file/vh1RkTJY#TATIvT3So3GZckzABJyyNtk_aNwYhAzGrPIcZySefnk) !
+Pour utiliser le programme sur votre téléphone **Android**, téléchargez l'`apk` depuis le [site](https://magitivisseur.netlify.app) !
 
 **`Les langages utilisés par les fichiers sont :`**
 **››** JavaScript (avec NodeJs)
@@ -13,6 +13,8 @@ Pour utiliser le programme sur votre téléphone **Android**, téléchargez l'`a
 **››** Androidjs
 **››** ytdl-core
 **››** ytpl
+**››** ffmpeg-static (non utilisé)
+**››** child_process (non utilisé)
 
 > AUCUN COOKIE, AUCUNE DONNEE DE VOTRE APPAREIL NE S'ENREGISTRE SUR VOS MACHINES ET AUCUNE INFORMATION N'EST TRANSMISE À QUI QUE CE SOIT
 > VOUS ÊTES LIBRE DE MODIFIER L'ENSEMBLE DES SCRIPTS COMME BON VOUS SEMBLE
